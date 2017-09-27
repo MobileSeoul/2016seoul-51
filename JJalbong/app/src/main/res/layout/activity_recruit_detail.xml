@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_recruit_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.futurechallenger.jallbong.jjalbong.RecruitDetailActivity">
+
+    <ListView
+        android:id="@+id/customlistview1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp">
+
+    </ListView>
+
+    <Button
+        android:text="참여하기"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@android:color/holo_orange_dark"
+        android:id="@+id/button1" />
+
+</RelativeLayout>

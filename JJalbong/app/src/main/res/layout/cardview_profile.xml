@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/profile_icon"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="활동명 "
+                    android:textSize="20dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginLeft="10dp"/>
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:inputType="textPersonName"
+                    android:text=""
+                    android:textSize="20dp"
+                    android:ems="10"
+                    android:id="@+id/edit1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="나이 "
+                    android:textSize="20dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginLeft="10dp"/>
+
+
+                <Spinner
+                    android:id="@+id/spinner1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:textSize="20dp"
+                    android:entries="@array/age"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="성별 "
+                    android:textSize="20dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginLeft="10dp"/>
+
+
+                <Spinner
+                    android:id="@+id/spinner2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:textSize="20dp"
+                    android:entries="@array/sex"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:text="거주지역 "
+                android:textSize="20dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="20dp"
+                />
+
+            <Spinner
+                android:id="@+id/spinner3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:textSize="20dp"
+                android:entries="@array/local"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:text="희망봉사시간 "
+                android:textSize="20dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="20dp"
+                />
+
+            <Spinner
+                android:id="@+id/spinner4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:textSize="20dp"
+                android:entries="@array/time"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@android:color/holo_orange_dark">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="희망 봉사 카테고리"
+            android:id="@+id/text1"
+            android:padding="5dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="16dp"
+            android:textColor="#ffffff"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="5dp">
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkbox0"
+            android:text="급식봉사"
+            android:textSize="18dp"
+            android:layout_margin="5dp"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkbox1"
+            android:text="의료봉사"
+            android:textSize="18dp"
+            android:layout_margin="5dp"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkbox2"
+            android:text="전산봉사"
+            android:textSize="18dp"
+            android:layout_margin="5dp"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkbox3"
+            android:text="미용봉사"
+            android:textSize="18dp"
+            android:layout_margin="5dp"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkbox4"
+            android:text="나들이봉사"
+            android:textSize="18dp"
+            android:layout_margin="5dp"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkbox5"
+            android:text="공연 및 행사봉사"
+            android:textSize="18dp"
+            android:layout_margin="5dp"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkbox6"
+            android:text="외국어봉사"
+            android:textSize="18dp"
+            android:layout_margin="5dp"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkbox7"
+            android:text="환경봉사"
+            android:textSize="18dp"
+            android:layout_margin="5dp"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkbox8"
+            android:text="아동 및 어린이봉사"
+            android:textSize="18dp"
+            android:layout_margin="5dp"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkbox9"
+            android:text="장애인봉사"
+            android:textSize="18dp"
+            android:layout_margin="5dp"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkbox10"
+            android:text="어르신봉사"
+            android:textSize="18dp"
+            android:layout_margin="5dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

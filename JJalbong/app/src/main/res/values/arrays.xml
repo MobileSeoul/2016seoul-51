@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="age">
+        <item >10 대</item>
+        <item >20 대</item>
+        <item >30 대</item>
+        <item >40 대</item>
+        <item >50 대</item>
+        <item >60 대</item>
+    </string-array>
+
+    <string-array name="sex">
+        <item >남자</item>
+        <item >여자</item>
+    </string-array>
+
+    <string-array name="local">
+        <item >강남구</item>
+        <item >강동구</item>
+        <item >강북구</item>
+        <item >강서구</item>
+        <item >관악구</item>
+
+        <item >광진구</item>
+        <item >구로구</item>
+        <item >금천구</item>
+        <item >노원구</item>
+        <item >도봉구</item>
+
+        <item >동대문구</item>
+        <item >동작구</item>
+        <item >마포구</item>
+        <item >서대문구</item>
+        <item >서초구</item>
+
+        <item >성동구</item>
+        <item >성북구</item>
+        <item >송파구</item>
+        <item >양천구</item>
+        <item >영등포구</item>
+
+        <item >용산구</item>
+        <item >은평구</item>
+        <item >종로구</item>
+        <item >중구</item>
+        <item >중량구</item>
+    </string-array>
+
+    <string-array name="time">
+        <item >1 ~ 2시간</item>
+        <item >2 ~ 4시간</item>
+        <item >4 ~ 6시간</item>
+        <item >6 ~ 8시간</item>
+    </string-array>
+</resources>

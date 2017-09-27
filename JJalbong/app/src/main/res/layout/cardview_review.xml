@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#ffffff">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:scaleType="fitStart"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight ="5dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="2dp"
+
+            app:srcCompat="@drawable/heart" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text1"
+            android:text="20291"
+            android:textColor="@android:color/holo_orange_dark"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight ="5dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="3dp"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text2"
+            android:text="user name"
+            android:textColor="#1262ac"
+            android:textStyle="italic"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight ="5dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="3dp"
+            android:textSize="14dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text3"
+        android:text="hello world hello world hello world hello world hello world hello world hello worldworld hello world hello world hello world hello worldworld hello world hello world hello world hello worldworld hello world hello world hello world hello world"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight ="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="14sp"/>
+
+</LinearLayout>

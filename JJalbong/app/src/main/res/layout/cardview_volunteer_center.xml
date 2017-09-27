@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seoul Volunteer Center"
+        android:id="@+id/text1"
+        android:textSize="24dp"
+        android:textColor="#000000"
+        android:layout_margin="15dp"
+        android:layout_marginBottom="0dp"
+        android:gravity="center_vertical"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/image1"
+            android:layout_weight="0.5"
+            android:layout_margin="10dp"
+            android:layout_marginTop="0dp"
+            android:scaleType="centerInside"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="10dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="seoul gang-si gu"
+                android:id="@+id/text2"
+                android:textSize="16dp"
+                android:textColor="#666666"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="http://www.jjsks.com"
+                android:id="@+id/text3"
+                android:textSize="16dp"
+                android:textColor="#666666"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="vc numbers"
+                android:id="@+id/text4"
+                android:textSize="16dp"
+                android:textColor="#0824c4"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="phone number"
+                android:id="@+id/text5"
+                android:textSize="16dp"
+                android:textColor="#666666"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

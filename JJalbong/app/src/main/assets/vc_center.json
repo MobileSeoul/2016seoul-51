@@ -1,0 +1,159 @@
+{
+	"vccenters": [{
+		"title": "서울시 자원봉사센터",
+		"address": "서울특별시 중구 소파로 131, 302호 (남산동3가)",
+		"phone": "02-1670-1365",
+		"site": "http://volunteer.seoul.go.kr/",
+		"number": "2,259,997"
+	}, {
+		"title": "강남구",
+		"address": "서울시 강남구 선릉로 668",
+		"phone": "02-3445-5152",
+		"site": "http://www.gangnamvc.or.kr/",
+		"number": "157,990"
+	}, {
+		"title": "강동구",
+		"address": "서울특별시 강동구 구천면로 395, 4층",
+		"phone": "02-3425-5680",
+		"site": "http://www.gangdongvc.or.kr/",
+		"number": "91,119"
+	}, {
+		"title": "강북구",
+		"address": "서울특별시 강북구 오현로 199-9 (번동)",
+		"phone": "02-901-6647",
+		"site": "http://vol.gangbuk.seoul.kr/",
+		"number": "56,533"
+	}, {
+		"title": "강서구",
+		"address": "서울특별시 강서구 공항대로 501 (등촌동, 강서구자원봉사센터 및 교통정보센터)",
+		"phone": "02-2600-5331",
+		"site": "http://vc.gangseo.seoul.kr/",
+		"number": "174,373"
+	}, {
+		"title": "관악구",
+		"address": "서울특별시 관악구 관악로 145 (봉천동) 지하1층",
+		"phone": "02-879-5232",
+		"site": "http://www.gvc.go.kr/",
+		"number": "93,662"
+	}, {
+		"title": "광진구",
+		"address": "서울특별시 광진구 자양로 117(자양동) 광진구청 제1별관 2층",
+		"phone": "02-450-1664",
+		"site": "http://volunteer.gwangjin.go.kr/",
+		"number": "72,826"
+	}, {
+		"title": "구로구",
+		"address": "서울시 구로구 가마산로 245 (구로동, 구로구청)",
+		"phone": "02-860-2532",
+		"site": "http://gurovol.guro.go.kr/",
+		"number": "77,852"
+	}, {
+		"title": "금천구",
+		"address": "서울특별시 금천구 시흥동 시흥대로73길 70 금천구청 7층",
+		"phone": "02-839-1365",
+		"site": "http://www.gcvc.go.kr/",
+		"number": "48,930"
+	}, {
+		"title": "노원구",
+		"address": "서울특별시 노원구 동일로 1229(중계동) 노원구민회관 3층 자원봉사센터",
+		"phone": "02-974-3200",
+		"site": "http://nvc.or.kr/xe/",
+		"number": "133,747"
+	}, {
+		"title": "도봉구",
+		"address": "서울특별시 도봉구 마들로 656 도봉구청7층 자원봉사팀",
+		"phone": "02-2091-2232",
+		"site": "http://vol.dobong.go.kr/",
+		"number": "74,370"
+	}, {
+		"title": "동대문구",
+		"address": "서울특별시 동대문구 홍릉로81 홍릉문화복지센터 4층",
+		"phone": "02-2171-6208",
+		"site": "http://vol.ddm.go.kr/",
+		"number": "80,003"
+	}, {
+		"title": "동작구",
+		"address": "서울특별시 동작구 만양로 3길 14 (노량진동 325-5번지)",
+		"phone": "02-824-0019",
+		"site": "http://www.djvol.or.kr/",
+		"number": "79,170"
+	}, {
+		"title": "마포구",
+		"address": "서울특별시 마포구 월드컵로 212 (성산동)",
+		"phone": "02-3153-8345",
+		"site": "http://mvc.mapo.go.kr/",
+		"number": "80,582"
+	}, {
+		"title": "서대문구",
+		"address": "서울특별시 서대문구 연희로 248 (연희동)",
+		"phone": "02-330-1365",
+		"site": "http://vol.sdm.go.kr/",
+		"number": "75,543"
+	}, {
+		"title": "서초구",
+		"address": "서울특별시 서초구 강남대로 201 (양재동, 서초구민회관) 2층 서초구자원봉사센터",
+		"phone": "02-573-9252",
+		"site": "http://www.seochov.or.kr/",
+		"number": "101,910"
+	}, {
+		"title": "성동구",
+		"address": "서울특별시 성동구 행당동 고산자로 270",
+		"phone": "02-2286-5070",
+		"site": "http://sdvc.sd.go.kr/",
+		"number": "77,037"
+	}, {
+		"title": "성북구",
+		"address": "서울특별시 성북구 보문로 168",
+		"phone": "02-2241-2360",
+		"site": "http://www.sbvc.or.kr/",
+		"number": "95,506"
+	}, {
+		"title": "송파구",
+		"address": "서울특별시 송파구 백제고분로 242 (삼전동)",
+		"phone": "02-2202-1365",
+		"site": "http://www.songpavc.or.kr/",
+		"number": "149,384"
+	}, {
+		"title": "양천구",
+		"address": "서울시 양천구 중앙로 250, (양천구자원봉사센터 2층)",
+		"phone": "02-2643-1365",
+		"site": "http://www.yangcheonvc.go.kr/",
+		"number": "124,130"
+	}, {
+		"title": "영등포구",
+		"address": "서울특별시 영등포구 국회대로 596 영등포 아트홀 1층",
+		"phone": "02-2670-4152",
+		"site": "http://ydp1365.kr/",
+		"number": "83,150"
+	}, {
+		"title": "용산구",
+		"address": "용산구 청파로49길 34 용산구 자원봉사센터 3층",
+		"phone": "02-718-1365",
+		"site": "http://www.ysvol.or.kr/",
+		"number": "44,289"
+	}, {
+		"title": "은평구",
+		"address": "서울시 은평구 은평로 195 (녹번동) 은평구청7층 은평구자원봉사센터",
+		"phone": "02-351-6494",
+		"site": "http://www.epvol.kr/",
+		"number": "103,033"
+	}, {
+		"title": "종로구",
+		"address": "서울 종로구 삼봉로 43(수송동) 종로구청 본관5층",
+		"phone": "02-2148-2583",
+		"site": "http://vol.jongno.go.kr/",
+		"number": "54,250"
+	}, {
+		"title": "중구",
+		"address": "서울특별시 중구 퇴계로 52길 12",
+		"phone": "02-2274-1365",
+		"site": "http://volunteer.junggu.seoul.kr/",
+		"number": "35,371"
+	}, {
+		"title": "중량구",
+		"address": "서울특별시 중랑구 봉화산로 179, 4층(중랑구청 보건소)",
+		"phone": "02-2094-1365",
+		"site": "http://www.jnvc.or.kr/",
+		"number": "95,237"
+	}]
+}
